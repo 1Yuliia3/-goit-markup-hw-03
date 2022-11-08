@@ -76,7 +76,6 @@ h3{
     text-decoration: none;
     align-items: center;
    
-    
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -134,8 +133,7 @@ h3{
 .hero{
     background-color: var(--footer-color);
     text-align: center;
-    width: 1600px;
-    height: 600px;
+    padding: 200px 0;
 }
 .hero-title{
     margin: 0 auto;
@@ -187,14 +185,19 @@ h3{
     list-style: none;
 }   
 .feature-list{
+    text-align:left;
     list-style: none;
     display: flex;
     display: auto;
     flex-wrap: wrap;
+    margin: -30px;
 }
 .feature-list .item{
     width: 270px;
-        height: 248px;
+    height: 248px;
+    margin-right: 30px;
+    flex-basis: calc((100% - 120px)/ 4);
+    
 }
 .feature-list .title {
     margin-top: 30px;
@@ -357,6 +360,8 @@ footer{
     justify-content: space-between;
 }
 .project{
+    margin: 0;
+    padding: 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -365,7 +370,6 @@ footer{
 .project-element{
     width: 370px;
     height: 404px;
-    margin-right: 30px;
     margin-bottom: 30px;
     flex-basis: calc((100% - 60px)/ 3);
 }
