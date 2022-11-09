@@ -15,101 +15,122 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="page-portfolio">
-    <header>
-        <nav>
+    <header class="page-header">
+    <div class="container main-nav">
             <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
-            <ul class="site-nav list">
-                <li><a href="./index.html" class="nav-link">Студія</a></li>
-                <li><a href="./portfolio.html" class="nav-link current">Портфоліо</a></li>
-                <li><a href="#" class="nav-link">Контакти</a></li>
+        <nav>
+            <ul class="site-nav">
+                <li class="item"><a href="./index.html" class="nav-link">Студія</a></li>
+                <li class="item"><a href="./portfolio.html" class="nav-link current">Портфоліо</a></li>
+                <li class="item"><a href="#" class="nav-link">Контакти</a></li>
             </ul>
         </nav>
         <ul class="list">
-            <li>
+            <li class="item">
                 <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="item">
                 <a class="header-contact" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
-    
+    </div>
     </header>
     <main>
         <section class="section">
+
             <h1 class="section-title">Портфоліо</h1>
-        
-                 <ul>
-                    <li><button class="button-filter" type="button">Усі</button></li>
-                    <li><button class="button-filter" type="button">Веб-сайти</button></li>
-                    <li><button class="button-filter" type="button">Додатки</button></li>
-                    <li><button class="button-filter" type="button">Дизайн</button></li>
-                    <li><button class="button-filter" type="button">Маркетинг</button></li>
+                 <div class="portfolio-button">
+                 <ul class="filter">
+                    <li class="item"><button class="button-filter" type="button">Усі</button></li>
+                    <li class="item"><button class="button-filter" type="button">Веб-сайти</button></li>
+                    <li class="item"><button class="button-filter" type="button">Додатки</button></li>
+                    <li class="item"><button class="button-filter" type="button">Дизайн</button></li>
+                    <li class="item"><button class="button-filter" type="button">Маркетинг</button></li>
                  </ul>
-                 
+                </div>
+
                <div class="project-container">
                  <ul class="project">
                     <li class="project-element">
                          <a href="#" class="project-link">
-                         <img src="./images/imgp1.jpg" alt="сторінка сайту на ноутбуці" width="370" height="294"> 
+                         <img class="item-img" src="./images/imgp1.jpg" alt="сторінка сайту на ноутбуці" width="370" height="294"> 
+                    <div class="project-title-text">
                          <h2 class="project-title">Технокряк</h2>
                          <p class="project-text">Веб-сайт</p>
+                    </div>
                          </a>
                     </li>
                     <li class="project-element">
                          <a href="#" class="project-link">
-                         <img src="./images/imgp2.jpg" alt="двоє грають у баскетбол" width="370" height="294">
+                         <img class="item-img" src="./images/imgp2.jpg" alt="двоє грають у баскетбол" width="370" height="294">
+                    <div class="project-title-text">
                          <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
                          <p class="project-text">Дизайн</p>
-                         </a>
+                    </div>
+                        </a>
                     </li>
                     <li class="project-element">
                          <a href="#" class="project-link">
-                         <img src="./images/imgp3.jpg" alt="риба з надписом" width="370" height="294" >
-                         <h2 class="project-title">Ресторан Seafood</h2>
+                         <img class="item-img" src="./images/imgp3.jpg" alt="риба з надписом" width="370" height="294">
+                    <div class="project-title-text">
+                         <h2 class="project-title">Ресторан Seafood</h2>    
                          <p class="project-text">Додаток</p>
-                         </a>
+                    </div>
+                        </a>
                     </li>
                     <li class="project-element">
                          <a href="#" class="project-link">
-                         <img src="./images/imgp4.jpg" alt="навушники" width="370" height="294">
-                          <h2 class="project-title">Проєкт Prime</h2>
+                         <img class="item-img" src="./images/imgp4.jpg" alt="навушники" width="370" height="294">
+                    <div class="project-title-text">
+                         <h2 class="project-title">Проєкт Prime</h2>
                          <p class="project-text">Маркетинг</p>
-                         </a>
+                    </div>
+                        </a>
                     </li>
                     <li class="project-element">
                          <a href="#" class="project-link">
-                         <img src="./images/imgp5.jpg" alt="дві коробки з надписом" width="370" height="294">
-                         <h2 class="project-title">Проєкт Boxes</h2>
+                         <img class="item-img" src="./images/imgp5.jpg" alt="дві коробки з надписом" width="370" height="294">
+                    <div class="project-title-text">
+                        <h2 class="project-title">Проєкт Boxes</h2>
                          <p class="project-text">Додаток</p>
-                         </a>
+                    </div>
+                        </a>
                     </li>
                     <li class="project-element">
                          <a href="#" class="project-link">
-                         <img src="./images/imgp6.jpg" alt="сайт з мапою світу" width="370" height="294">
+                         <img class="item-img" src="./images/imgp6.jpg" alt="сайт з мапою світу" width="370" height="294">
+                    <div class="project-title-text">
                          <h2 class="project-title">Inspiration has no Borders</h2>
                          <p class="project-text">Веб-сайт</p>
-                         </a>
+                    </div>
+                        </a>
                     </li>
                     <li class="project-element">
                          <a href="#" class="project-link">
-                         <img src="./images/imgp7.jpg" alt="сторінка журналу з зображенням дівчат" width="370" height="294">
+                         <img class="item-img" src="./images/imgp7.jpg" alt="сторінка журналу з зображенням дівчат" width="370" height="294">
+                    <div class="project-title-text">
                          <h2 class="project-title">Видання Limited Edition</h2>
                          <p class="project-text">Дизайн</p>
-                         </a>
+                    </div>
+                        </a>
                     </li>
                     <li class="project-element">
                          <a href="#" class="project-link">
-                         <img src="./images/imgp8.jpg" alt="бірка з текстом" width="370" height="294">
+                         <img class="item-img" src="./images/imgp8.jpg" alt="бірка з текстом" width="370" height="294">
+                    <div class="project-title-text">
                          <h2 class="project-title">Проєкт LAB</h2>
                          <p class="project-text">Маркетинг</p>
-                         </a>
+                    </div>
+                        </a>
                     </li>
                     <li class="project-element">
                          <a href="#" class="project-link">
-                          <img src="./images/imgp9.jpg" alt="сайт на якому мужчина з планшетом" width="370" height="294">
+                          <img class="item-img" src="./images/imgp9.jpg" alt="сайт на якому мужчина з планшетом" width="370" height="294">
+                    <div class="project-title-text">
                           <h2 class="project-title">Growing Business</h2>
                           <p class="project-text">Додаток</p>
-                         </a>
+                    </div>
+                        </a>
                     </li>
                  </ul>
                 </div>
