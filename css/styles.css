@@ -192,10 +192,12 @@ h3{
     display: auto;
     flex-wrap: wrap;
     gap: 30px;
+    margin: 0;
+    padding: 0;
   
 }
 .feature-list .item{
-    flex-basis: calc((100% - 90px)/ 4);
+    flex-basis: calc((100% - 90px) / 4);
     
 }
 .feature-list .title {
@@ -211,6 +213,8 @@ h3{
 .work-img{
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 .work-img .item{
     width: 370px;
@@ -245,6 +249,8 @@ h3{
     list-style: none;
     margin-top: 50px;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 .team .item{
     width: 270px;
